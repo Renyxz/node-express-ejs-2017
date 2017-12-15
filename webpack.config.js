@@ -55,7 +55,7 @@ module.exports = {
 		// new UglifyJSPlugin(), 
 		new ExtractTextPlugin('assets/css/style.css'),
 		new HtmlWebpackPlugin({
-			template: './src/views/index.ejs'
+			template: 'views/index.ejs'
 		}),
 		// new CleanWebpackPlugin() // Comment this out when trying to run webpack-dev-server else it will delete the build folder!
 	]

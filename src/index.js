@@ -2,7 +2,7 @@ const express = require('express');
 const router = require('./router');
 
 // CSS
-import './css/styles.css';
+import '../assets/css/styles.css';
 
 
 
